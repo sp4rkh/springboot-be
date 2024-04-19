@@ -1,0 +1,17 @@
+# Log properties
+logging:
+    level:
+        root: info
+        net:
+            sp4rkh:
+                api: debug
+
+# Spring properties
+spring:
+    application:
+        name: springboot-be-api-test
+    main:
+        allow-bean-definition-overriding: true
+        banner-mode: off
+
+# Application properties
